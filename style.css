@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter";
+}
+
+body {
+    background-color:  hsl(0, 0%, 8%);
+    margin: 50px;
+}
+
+main {
+    background-color: hsl(0, 0%, 12%);
+    text-align: center;
+    width: 32%;
+    height: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 320px;
+    max-width: 1440px;
+    margin: auto;
+}
+
+main img {
+    width: 100px;
+    border-radius: 100%;
+}
+
+main h1 {
+    font-size: 22px;
+    color: white;
+    padding-top: 25px;
+}
+
+main h2 {
+    font-size: 20px;
+    color: hsl(75, 94%, 57%);
+    padding-top: 10px;
+}
+
+main p {
+    font-size: 17px;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+nav a {
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  margin: auto;
+  transition-duration: .4s;
+  padding: 10px 0px 10px 10px;
+
+}
+
+nav a.git {
+    background-color: hsl(0, 0%, 20%);
+    margin-bottom: 10px; 
+    padding: 10px 0px 10px 10px;
+}
+
+nav a.front {
+    background-color: hsl(0, 0%, 20%);
+    margin-bottom: 10px;
+
+}
+
+nav a.linkedin {
+    background-color: hsl(0, 0%, 20%);
+    margin-bottom: 10px;
+}
+
+nav a.twitter {
+    background-color: hsl(0, 0%, 20%);
+    margin-bottom: 10px;
+}
+
+nav a.instagram {
+    background-color: hsl(0, 0%, 20%);
+    margin-bottom: 10px;
+}
+
+nav :hover.git {
+    background-color: hsl(75, 94%, 57%) ;
+}
+
+nav :hover.front {
+    background-color: hsl(75, 94%, 57%) ;
+}
+
+nav :hover.linkedin {
+    background-color: hsl(75, 94%, 57%) ;
+}
+
+nav :hover.twitter {
+    background-color: hsl(75, 94%, 57%) ;
+}
+
+nav :hover.instagram {
+    background-color: hsl(75, 94%, 57%) ;
+}
