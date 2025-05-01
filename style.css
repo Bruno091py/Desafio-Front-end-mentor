@@ -16,12 +16,12 @@ body {
 main {
     background-color: hsl(0, 0%, 12%);
     text-align: center;
-    width: 100%;
+    width: 32%;
     height: 500px;
     padding: 20px;
     border-radius: 10px;
     min-width: 320px;
-    max-width: 1440px;
+    max-width: 600px;
     margin: auto;
 }
 
