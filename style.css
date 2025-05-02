@@ -17,11 +17,11 @@ main {
     background-color: hsl(0, 0%, 12%);
     text-align: center;
     width: 32%;
-    height: 500px;
+    height: auto;
     padding: 20px;
     border-radius: 10px;
     min-width: 320px;
-    max-width: 1440px;
+    max-width: 100%px;
     margin: auto;
 }
 
